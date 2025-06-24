@@ -65,10 +65,10 @@ class Config:
     tune_llm: bool = False
     """Whether to fine-tune the language model backbone."""
 
-    tune_visual: bool = True
+    tune_visual: bool = False
     """Whether to fine-tune the vision tower."""
 
-    tune_projector: bool = True
+    tune_projector: bool = False
     """Whether to fine-tune the projector."""
 
     tune_diffusion_model: bool = True
